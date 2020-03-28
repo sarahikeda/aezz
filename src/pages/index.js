@@ -4,38 +4,35 @@ import Layout from "../components/layout"
 import styles from "../scss/blog.module.scss"
 import Seo from "../components/SEO"
 import Button from "../components/Button/button"
+import Img from "gatsby-image"
+
 
 export default ({ data }) => {
   console.log(data)
 
+  let featuredImgFluid =
+    '../content/images/dark-design.jpg'
   return (
     <Layout>
       <Seo />
       <h1>
-        My name is Bonneville. I'm a starter theme for Gatsby and I like to talk
-        as if I am a living thing
+        Ahmed Ezzeldin Mohamed is a PhD candidate in Political Science, specializing in comparative politics and political methodology.
       </h1>
-      <h4 className={styles.feature}>
-        {data.allMarkdownRemark.totalCount} Featured Posts
-      </h4>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <article className={styles.item}>
-          <div className={styles.title}>
-            <h2>
-              <Link to={node.frontmatter.path}>{node.frontmatter.title}</Link>
-            </h2>
-          </div>
-          <div className={styles.content}>
-            <p>{node.excerpt}</p>
-            <div className={styles.meta}>
-              <Link className="btn-link" to={node.frontmatter.path}>
-                <Button />
-              </Link>
-              <h4>{node.frontmatter.date}</h4>
-            </div>
-          </div>
-        </article>
-      ))}
+      < Img fluid = {
+        featuredImgFluid
+      }
+      src ='./images/dark-design.jpg'
+      />
+
+      <p>
+        Ahmed Ezzeldin Mohamed is a PhD candidate in Political Science, specializing in comparative politics and political methodology.</p>
+
+        <p>His research interest lies in the intersection between religion and politics, in the Greater Middle East. His dissertation examines how state actors shape religious policies and how citizens’ religiosity affects their political behavior.His other research projects investigate how conspiratorial thinking affects political behavior, the persistent effects of religious violence, the role of media in framing, the effectiveness of electoral boycotts in transitional elections, and the impact of terrorism on voting behavior in new democracies.</p>
+
+        <p>
+        Prior to Columbia, Mr. Mohamed worked
+        for TUSIAD Competitiveness forum in Istanbul and IPSOS Market Research. He holds a B.A. in Economics from the American University in Cairo, an M.A.in Public Policy from Sabanci University in Istanbul, and an M.A. in Political Science from Central European University.
+      </p>
     </Layout>
   )
 }
