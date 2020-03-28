@@ -18,37 +18,36 @@ exports.createPages = async ({ actions, graphql }) => {
   // Pages built using templates/page-template.js
   const pageData = [
     {
-      name: "profile",
+      name: "Research",
       title:
-        "This is the profile page. You can change this title in gatsby-node.js",
+        "Research",
       content:
-        "Vestibulum vestibulum finibus sem at fringilla. Morbi sed metus eu libero tincidunt pretium vel et nunc. Maecenas elementum fermentum dignissim. Cras vestibulum congue nisl, vitae euismod lectus ultricies sed. Mauris euismod fermentum ligula, a vehicula orci posuere ut. Maecenas congue sapien sit amet est pellentesque, eu rhoncus erat volutpat. Integer ut odio mattis, scelerisque magna ut, interdum urna. Aliquam sollicitudin enim sit amet bibendum mattis. Suspendisse vitae luctus sem, vitae luctus lorem. Aenean luctus risus sed rutrum vulputate. Donec vel auctor velit.",
+        "Turnout in Transitional Elections: Who Votes in Iraq?, Journal of the Middle East and Africa (Revise and Resubmit).",
+      extra: "“Labor Productivity: Large vs. Small, Turkey vs. EU.”(2014). TUSIAD Competitiveness Forum Briefs. <http: //ref.sabanciuniv.edu/sites/ref.sabanciuniv.edu/files/not_ahmed_ezz_eldin_policy_note_0.pdf>",
+      extraOne: "“The Egyptian Welfare State in Transition (1995-2005): A Comparative Approach.” (2014). Doha Institute Research Papers. <http://english.dohainstitute.org/release/be4fad25-d7c6-4a7a-aa98-7286e89675 f6 > .",
+      extraTwo: "“Scandiracy: How Interacting Scandals and Conspiratorial Framing Shapes Voters’ Behavior” (with Giovanna Invernizzi)",
     },
     {
-      name: "contact",
+      name: "Teaching",
       title:
-        "This is the contact page. You can change this title in gatsby-node.js",
+        "Teaching",
       content:
-        "Vestibulum vestibulum finibus sem at fringilla. Morbi sed metus eu libero tincidunt pretium vel et nunc. Maecenas elementum fermentum dignissim. Cras vestibulum congue nisl, vitae euismod lectus ultricies sed. Mauris euismod fermentum ligula, a vehicula orci posuere ut. Maecenas congue sapien sit amet est pellentesque, eu rhoncus erat volutpat. Integer ut odio mattis, scelerisque magna ut, interdum urna. Aliquam sollicitudin enim sit amet bibendum mattis. Suspendisse vitae luctus sem, vitae luctus lorem. Aenean luctus risus sed rutrum vulputate. Donec vel auctor velit.",
+        "Teaching Assistant, Introduction to Comparative Politics, Department of Political Science, Columbia University, Spring 2018.",
+      extra: "Teaching Assistant, The Logic of Collective Choice, Department of Political Science, Columbia University, Fall 2017.",
+      extraOne: "Instructor, Sawiris Scholars Program Pre - Departure Preparation Course in Mathematical and Statistical Methods, Summer 2012.",
+      extraTwo: "Teaching Assistant, Introduction to Macroeconomics, Department of Economics, the American University in Cairo, Fall 2011 and Spring 2012. "
     },
     {
-      name: "privacy",
+      name: "cv",
       title:
-        "This is the privacy page. You can change this title in gatsby-node.js",
-      content:
-        "Vestibulum vestibulum finibus sem at fringilla. Morbi sed metus eu libero tincidunt pretium vel et nunc. Maecenas elementum fermentum dignissim. Cras vestibulum congue nisl, vitae euismod lectus ultricies sed. Mauris euismod fermentum ligula, a vehicula orci posuere ut. Maecenas congue sapien sit amet est pellentesque, eu rhoncus erat volutpat. Integer ut odio mattis, scelerisque magna ut, interdum urna. Aliquam sollicitudin enim sit amet bibendum mattis. Suspendisse vitae luctus sem, vitae luctus lorem. Aenean luctus risus sed rutrum vulputate. Donec vel auctor velit.",
-    },
-    {
-      name: "cookies",
-      title:
-        "This is the cookies page. You can change this title in gatsby-node.js",
+        "CV",
       content:
         "Vestibulum vestibulum finibus sem at fringilla. Morbi sed metus eu libero tincidunt pretium vel et nunc. Maecenas elementum fermentum dignissim. Cras vestibulum congue nisl, vitae euismod lectus ultricies sed. Mauris euismod fermentum ligula, a vehicula orci posuere ut. Maecenas congue sapien sit amet est pellentesque, eu rhoncus erat volutpat. Integer ut odio mattis, scelerisque magna ut, interdum urna. Aliquam sollicitudin enim sit amet bibendum mattis. Suspendisse vitae luctus sem, vitae luctus lorem. Aenean luctus risus sed rutrum vulputate. Donec vel auctor velit.",
     },
     {
       name: "404",
       title:
-        "This is the error page. You can change this title in gatsby-node.js",
+        "This is the error page.",
     },
   ]
   pageData.forEach(page => {

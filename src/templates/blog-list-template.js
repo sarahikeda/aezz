@@ -20,7 +20,7 @@ export default class BlogList extends React.Component {
     return (
       <Layout>
         <Seo
-          title="All blog posts"
+          title="All blogs posts"
           description="Recent posts from the Bonneville starter theme"
         />
         <div className="blog-list">

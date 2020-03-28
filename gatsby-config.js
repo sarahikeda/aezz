@@ -7,11 +7,11 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Bonneville`,
+    title: `Ahmed Ezzeldin Mohamed`,
     titleTemplate: `%s | A starter theme for Gatsby`,
     siteUrl: `https://bonneville.netlify.com`,
     description: `A starter theme for Gatsby`,
-    author: `Morgan Baker`,
+    author: `Ahmed Ezzeldin Mohamed`,
     twitterUsername: `@bonneville`,
     twitterURL: `https://twitter.com/`,
     linkedInURL: `https://www.linkedin.com/in/morgan-baker-developer-inverness`,
@@ -25,8 +25,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Bonneville - Gatsby Starter Theme`,
-        short_name: `Bonneville`,
+        name: `Ahmed Ezzeldin Mohamed`,
+        short_name: `Ahmed Mohamed`,
         start_url: `/`,
         background_color: `#0027EC`,
         theme_color: `#0027EC`,

@@ -24,9 +24,6 @@ export default ({ data }) => {
       src ='./images/dark-design.jpg'
       />
 
-      <p>
-        Ahmed Ezzeldin Mohamed is a PhD candidate in Political Science, specializing in comparative politics and political methodology.</p>
-
         <p>His research interest lies in the intersection between religion and politics, in the Greater Middle East. His dissertation examines how state actors shape religious policies and how citizens’ religiosity affects their political behavior.His other research projects investigate how conspiratorial thinking affects political behavior, the persistent effects of religious violence, the role of media in framing, the effectiveness of electoral boycotts in transitional elections, and the impact of terrorism on voting behavior in new democracies.</p>
 
         <p>

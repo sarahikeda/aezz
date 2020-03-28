@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <h1 align="center">
-  Bonneville - A Gatsby Starter Blog
+  Ahmed Ezzeldin Mohamed
 </h1>
 
 ## Please Note
